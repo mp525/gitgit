@@ -20,4 +20,4 @@ public class SprogSkift {
 		// print en menu
 	}
 	
-}
+}//kommentar
