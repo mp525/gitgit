@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class SprogSkift {
 	//static Dansk sprog;
 	public static SprogI sprog = new Dansk();
+	public static DogListI dogs;
+        
 	
 	static Scanner sc;
 	public static void main(String[] args) {
@@ -13,6 +15,9 @@ public class SprogSkift {
 			sprog.printMenu();
 			choice = sc.nextInt();
 			switch(choice) {
+                            case 1:
+					dogs.printList();
+					break;
 				case 4:
 					changeLanguage();
 					break;
